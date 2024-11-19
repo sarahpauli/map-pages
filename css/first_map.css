@@ -1,0 +1,52 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+
+body {
+    background: #e4f7fe; 
+    color: #333; 
+    margin: 3rem; 
+}
+
+p {
+    text-align: left;
+    font-family: 'Trebuchet MS', sans-serif;
+    max-width: 30rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+
+#map {
+    height: 400px;
+    width: 700px;
+    margin: auto;
+    border: 1px solid #999;
+}
+
+a {
+    color: #295769;
+}
+
+a:hover {
+    color: #4e92ad;
+}
+
+@media screen and (max-width: 800px){
+    body {
+        margin: 1rem;
+    }
+
+    #map {
+        height: 300px;
+        width: 300px;
+    }
+}
