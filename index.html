@@ -42,7 +42,7 @@
 
         for (let i = 0; i < places.length; i++) {
             L.marker( [ places[i].latitude, places[i].longitude ])
-            .bindPopup( '<h3>' + places[i].placeName + '</h3>' + '<p>' + places[i].descrip + '</p>')
+            .bindPopup( '<h3>' + places[i].placeName + '</h3>' + '<h4>' + places[i].descrip + '</h4>')
             .addTo(map);
         }
 
